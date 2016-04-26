@@ -13,4 +13,6 @@ RUN npm install
 COPY . /usr/src/app
 
 EXPOSE 3003
+
+# Run in production
 CMD ["gulp", "prod"]

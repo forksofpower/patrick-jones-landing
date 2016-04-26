@@ -1,0 +1,22 @@
+// * { outline: Black 1px dotted}
+body {
+  background-color: $background-color;
+}
+.thingy {
+  h1 {
+    color: yellow
+  }
+}
+.left-block {
+  position: relative;
+  top: 30vh;
+  h1.name {
+    // text-align: center;
+  }
+}
+.right-block {
+  position: relative;
+  padding-top: 30vh;
+  max-height: 100vh;
+  overflow: scroll;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Patrick Jones",
+  "copyright-text": "Copyright Patrick Jones | 2016",
+  "sections": [
+    {
+      "name": "main",
+      "title": "I am a person who does stuff.",
+      "url": "/main"
+    },
+    {
+      "name": "clients",
+      "title": "These are the people I have worked for.",
+      "url": "/clients"
+    },
+    {
+      "name": "skills",
+      "title": "This is the shit I am good at.",
+      "url": "/skills"
+    }
+  ]
+}

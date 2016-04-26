@@ -1,0 +1,106 @@
+{
+  "basics": {
+    "name": "Patrick Jones",
+    "label": "Full Stack Javascript Developer",
+    "phone": "5127400008",
+    "email": "this@patrickjones.tech",
+    "website": "patrickjones.tech",
+    "summary": "",
+    "profiles": [{
+        "network": "Twitter",
+        "username": "forksofpower",
+        "url": "https://twitter.com/forksofpower"
+      }, {
+        "network": "Github",
+        "username": "forksofpower",
+        "url": "https://github.com/forksofpower"
+      }]
+  },
+  "work": [
+    {
+      "company": "Mr. Delivery USA",
+      "position": "Full Stack Engineer",
+      "website": "https://mrdelivery.com",
+      "startDate": "2013-10-01",
+      "summary": "Project specification and management, API research and impementation, unit and integration testing, IT solutions",
+      "highlights": [],
+      "endDate": "2015-06-01"
+    },
+    {
+      "company": "Texican Cafe",
+      "position": "Waiter",
+      "website": "",
+      "startDate": "2012-01-01",
+      "summary": "",
+      "highlights": [],
+      "endDate": "2013-12-01"
+    },
+    {
+      "company": "Hoovers Inc.",
+      "position": "Graph Database Technologies Intern",
+      "website": "",
+      "startDate": "2011-01-01",
+      "summary": "",
+      "highlights": [],
+      "endDate": "2011-12-01"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Austin Community College",
+      "area": "",
+      "studyType": "Computer Science",
+      "startDate": "2008-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2013-01-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "javascript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "AngularJS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Node.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MongoDB",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux System Administration",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML5",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CSS",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native or bilingual"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Limited working"
+    }
+  ]
+}

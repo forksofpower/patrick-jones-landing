@@ -7,16 +7,7 @@ head
     link(href='/public/css/style.css', rel='stylesheet', type='text/css')
     
 body
-  section.container
-    div.row
-      div.four.columns.left-block
-        h1.name.u-pull-left
-          = name
-      div.eight.columns.right-block
-        each section in sections
-          a(href=section.url)
-            h1= section.name
-          p= section.title
+    h1 Clients
           
     // scripts
     script(src='https://code.jquery.com/jquery-2.2.0.min.js')    

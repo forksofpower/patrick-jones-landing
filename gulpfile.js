@@ -4,6 +4,7 @@ var gulp          = require('gulp')
   , sass          = require('gulp-sass')
   , babel         = require('gulp-babel')
   , jshint        = require('gulp-jshint')
+  , uglify        = require('gulp-uglify')
   , browserSync   = require('browser-sync')
   , nodemon       = require('gulp-nodemon')
   , path          = require('path');
@@ -28,6 +29,7 @@ gulp.task('babel', function() {
       .pipe(babel({
         presets: ['es2015']
       }))
+      // .pipe(uglify())
       .pipe(gulp.dest('./app/assets/js/'));
   gulp.src('./dist/server/**/*.js')
       .pipe(babel({
@@ -70,8 +72,12 @@ gulp.task('watch', function() {
 gulp.task('browser-sync', ['nodemon'], function() {
   browserSync.init(null, {
     proxy: 'http://localhost:3003',
-    files: ['app/assets/**/*.*', 'app/views/**/*.*'],
-    port: 3333
+    files: [
+      'app/assets/**/*.*',
+      'app/views/**/*.*',
+      'app/data/**/*.*',
+    ],
+    port: 1337
   });
 })
 // nodemon

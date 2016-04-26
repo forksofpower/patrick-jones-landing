@@ -205,13 +205,12 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #daad86; }
+  color: #e3e3e3; }
 
 a {
-  color: #daad86;
-  text-decoration: none; }
+  color: #1eaedb; }
   a:hover {
-    color: #d4a072; }
+    color: #1b9cc5; }
 
 hr {
   margin-top: 3rem;
@@ -630,7 +629,7 @@ form {
   margin-bottom: 2.5rem; }
 
 body {
-  background-color: White; }
+  background-color: #c9c9c9; }
 
 .thingy h1 {
   color: yellow; }
@@ -638,6 +637,8 @@ body {
 .left-block {
   position: relative;
   top: 30vh; }
+  .left-block h1.name {
+    text-align: center; }
 
 .right-block {
   position: relative;
